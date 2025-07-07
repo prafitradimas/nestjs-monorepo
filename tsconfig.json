@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/auth": [
+        "apps/auth/src"
+      ],
+      "@app/auth/*": [
+        "apps/auth/src/*"
+      ],
+      "@app/back-office": [
+        "apps/back-office/src"
+      ],
+      "@app/back-office/*": [
+        "apps/back-office/src/*"
+      ],
+      "@app/mobile-app": [
+        "apps/mobile-app/src"
+      ],
+      "@app/mobile-app/*": [
+        "apps/mobile-app/src/*"
+      ],
+      "@lib/configuration": [
+        "libs/configuration/src"
+      ],
+      "@lib/configuration/*": [
+        "libs/configuration/src/*"
+      ],
+      "@lib/crud": [
+        "libs/crud/src"
+      ],
+      "@lib/crud/*": [
+        "libs/crud/src/*"
+      ],
+      "@lib/infra": [
+        "libs/infra/src"
+      ],
+      "@lib/infra/*": [
+        "libs/infra/src/*"
+      ]
+    }
+  }
+}
